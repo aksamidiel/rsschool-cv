@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono:ital,wght@1,300&family=Ubuntu:ital,wght@0,700;1,300;1,400&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+body{
+   background: linear-gradient(to left, #31b1b1, #e04d97); 
+}
+.resume{
+    width:800px;
+    background: #fff;
+    margin: 25px auto;
+    display: flex;
+}
+
+.left{
+    background: #5482dd;
+    width: 300px;
+    padding: 0 20px;
+}
+
+.right{
+    width: calc(100%-300px);
+}
+
+.left .img_holder{
+    text-align:center;
+    padding: 20px 0
+}
+
+.left .img_holder img{
+    width: 200px;
+    border-radius: 30px;
+    padding: 20px 0;
+}
