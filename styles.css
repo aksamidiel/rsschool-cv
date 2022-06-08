@@ -92,7 +92,6 @@ body{
     align-items: center;
     justify-content:center;
     margin-right: 15px;
-    
 }
 
 .contact .li_wrap .text{
@@ -114,5 +113,25 @@ body{
     height: 100px;
     margin-bottom: 15px;
     border-radius: 15px;
-    background:#fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills .li_wrap{
+    background: #fff;
+}
+
+.skills .li_wrap .text,
+.hobbies .li_wrap .text{
+    color: #fff;
+}
+
+.hobbies .li_wrap:hover{
+    background: #fff; 
+}
+
+.skills .li_wrap:hover .icon,
+.hobbies .li_wrap:hover .text{
+    color: #9153c9;
 }
