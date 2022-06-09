@@ -22,12 +22,12 @@ body{
 
 .left{
     background: #5482dd;
-    width: 300px;
+    width: 600px;
     padding: 0 20px;
 }
 
 .right{
-    width: calc(100%-300px);
+    width: calc(100%-600px);
 }
 
 .left .img_holder{
@@ -84,8 +84,8 @@ body{
 }
 
 .contact .li_wrap .icon{
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     background:#fff;
     border-radius:15px;
     display: flex;
@@ -109,13 +109,14 @@ body{
 
 .skills .li_wrap, 
 .hobbies .li_wrap{
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     margin-bottom: 15px;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .skills .li_wrap{
@@ -124,14 +125,104 @@ body{
 
 .skills .li_wrap .text,
 .hobbies .li_wrap .text{
-    color: #fff;
+    color: rgb(199, 32, 32);
+    margin-top: 5px;
+    align-items: center;
+}
+
+.hobbies .li_wrap{
+    border: 2px solid #fff;
 }
 
 .hobbies .li_wrap:hover{
     background: #fff; 
+   
 }
 
 .skills .li_wrap:hover .icon,
 .hobbies .li_wrap:hover .text{
     color: #9153c9;
+}
+
+.header{
+    background:#292b2f;
+    padding: 15px 30px;
+    color:#fff;
+    height:200px; 
+}
+
+.header .name{
+    font-size: 52px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #3525af;  
+}
+.header .role{
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.header .about{
+    margin-top: 20px;
+    line-height: 26px;
+
+}
+
+.right_inner{
+    padding: 30px;
+    color: #292b2f;
+    
+}
+
+.right_inner .education{
+    margin-top: 30px;
+}
+
+.right_inner .li_wrap{
+    display: flex;
+    margin-bottom: 15px;
+}
+.right_inner .li_wrap .date{
+    width: 125px;
+    color:#9153c9;
+}
+.right_inner .li_wrap .info{
+    width: calc(100%-125px);
+    padding-left: 25px;
+    position: relative;
+}
+.right_inner .li_wrap .info_title{
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing:2px;
+    color: #9153c9;
+}
+.right_inner .li_wrap .info_com{
+    font-weight: 300;
+    font-size: 14px;
+    margin-top: 3px;   
+}
+.right_inner .li_wrap .info_cont{
+    margin-top: 15px;
+}
+
+.right_inner .li_wrap .info:before{
+    content:"";
+    position: absolute;
+    top:3px;
+    left: 0;
+    width:10px;
+    height:10px;
+    background: #9153c9;
+    border-radius: 50%;
+}
+.right_inner .li_wrap .info:after{
+    content:"";
+    position: absolute;
+    top:10px;
+    left: 4px;
+    width:2px;
+    height:90%;
+    background: #9153c9;
+    border-radius: 50%;
 }
