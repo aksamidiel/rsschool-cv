@@ -32,7 +32,7 @@ body{
 
 .left .img_holder{
     text-align:center;
-    padding: 20px 0
+    padding: 20px 0;
 }
 
 .left .img_holder img{
@@ -120,13 +120,23 @@ body{
 }
 
 .skills .li_wrap{
+    border: 2px solid #fff;
+}
+.skills .li_wrap:hover{
     background: #fff;
 }
 
 .skills .li_wrap .text,
 .hobbies .li_wrap .text{
     color: rgb(199, 32, 32);
-    margin-top: 5px;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.skills .li_wrap .text,
+.hobbies .li_wrap .text{
+    color: rgb(199, 32, 32);
+    margin-top: 10px;
     align-items: center;
 }
 
@@ -155,11 +165,14 @@ body{
     font-size: 52px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #3525af;  
+    color: #941a84;  
+    text-align: right;
 }
 .header .role{
     font-weight: 300;
     font-size: 20px;
+    text-align: right;
+    color: #19af3f;
 }
 
 .header .about{
